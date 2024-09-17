@@ -5,6 +5,8 @@ from src.config_loader import load_config
 
 
 def sort_files(directory):
+    '''Sorting function'''
+    
     config = load_config()
 
     if not config:

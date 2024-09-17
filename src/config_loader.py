@@ -4,6 +4,7 @@ from src.logger import logger
 
 
 def load_config(config_path='config\config.json'):
+    '''Trying to open a config file and handle errors'''
     try:
         with open(config_path, 'r') as config_file:
             logger.info(f'Downloading the configuration from a file {config_path}')

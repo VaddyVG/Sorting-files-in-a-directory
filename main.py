@@ -6,11 +6,13 @@ from src.logger import logger
 def main():
     directory_to_sort = input("Enter the path to the directory to sort: ")
     
+    # Check directories
     if not os.path.isdir(directory_to_sort):
         logger.error(f"Error: The {directory_to_sort} directory does not exist.")
         print(f"Error: The {directory_to_sort} directory does not exist")
         return
     
+    # Calling the sorting function
     sort_files(directory_to_sort)
     print(f"Sorting of files in the {directory_to_sort} directory is completed")
 

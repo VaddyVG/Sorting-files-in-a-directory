@@ -1,0 +1,9 @@
+{
+    "directories": {
+      "images": ["jpg", "jpeg", "png", "gif"],
+      "videos": ["mp4", "avi", "mov"],
+      "documents": ["pdf", "docx", "txt"],
+      "music": ["mp3", "wav"]
+    },
+    "archive": "archive" 
+}

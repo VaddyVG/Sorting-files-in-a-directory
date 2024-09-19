@@ -3,7 +3,7 @@ import os
 from src.logger import logger
 
 
-def load_config(config_path='config\config.json'):
+def load_config(config_path=r'config\config.json'):
     '''Trying to open a config file and handle errors'''
     try:
         with open(config_path, 'r') as config_file:

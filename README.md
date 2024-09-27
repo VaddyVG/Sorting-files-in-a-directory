@@ -26,7 +26,7 @@ cd Sorting-files-in-a-directory
 ```bash
 python main.py
 ```
-or
+или
 ```bash
 python3 main.py
 ```

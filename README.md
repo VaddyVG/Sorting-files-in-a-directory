@@ -26,6 +26,10 @@ cd Sorting-files-in-a-directory
 ```bash
 python main.py
 ```
+or
+```bash
+python3 main.py
+```
 
 2. **Введите путь к директории для сортировки, когда программа запросит это. Пример:**
 ```Python
